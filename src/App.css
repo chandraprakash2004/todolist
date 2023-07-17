@@ -1,0 +1,142 @@
+/* Task Card */
+.task__card {
+    height: 100%;
+  }
+  
+  .task__card__header {
+    min-height: 40px;
+  }
+  
+  .task__card__title {
+    margin-top: 0;
+  }
+  
+  .card-image-top {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .place__holder__image {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .trim-3-lines {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .tags .badge {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  
+  /* Navbar */
+  .add__new__btn__mobile__only {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Modal */
+  .modal-body {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+  
+  /* Customizations */
+  .container {
+    margin-top: 20px;
+  }
+  
+  .task__card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .task__card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .navbar {
+      justify-content: space-between;
+    }
+  
+    .navbar-brand {
+      margin-right: 0;
+    }
+  
+    .navbar .btn {
+      margin-top: 10px;
+    }
+  }
+
+
+  /* Task Card */
+.task__card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .task__card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .task__card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task__card__title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .task__card__subtitle {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .task__card__content {
+    flex-grow: 1;
+  }
+  
+  .task__card__footer {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task__card__tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .task__card__tags .badge {
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 767px) {
+    .task__card {
+      margin-bottom: 16px;
+    }
+  }
+  
+  
